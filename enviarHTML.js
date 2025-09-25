@@ -14,7 +14,7 @@ formulario.addEventListener('submit', async function(event) {
 
     try {
         // Enviar datos al backend con Axios
-        const response = await axios.post('http://localhost:3500/usuario/register', {
+        const response = await axios.post('http://localhost:3500/usuario/add', {
             nombre,
             email,
             password
