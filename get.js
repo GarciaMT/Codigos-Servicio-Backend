@@ -1,3 +1,5 @@
+ 
+//Mostrar los usuarios registrados
 router.get('/',(req, res)=>{
     db.query('select * from usuario', //Mostrar todas la tabla 
     (err,result) =>{
