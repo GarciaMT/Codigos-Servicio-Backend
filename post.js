@@ -1,7 +1,7 @@
 router.post("/add", (req,res)=>{
      const {  nombre, email, password } = req.body;
 
-      if (!nombre || !email ||password) {
+      if (!nombre || !email ||!password) {
         return res.status(400).json({ error: 'Faltan datos de la tabla' });
     }
     
