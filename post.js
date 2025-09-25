@@ -16,6 +16,6 @@ router.post("/add", (req,res)=>{
             message: 'Información agregada con éxito.', 
             id: result.insertId 
         });
-     console.log("Metodo Post", res) //Si todo funciona
+     console.log("Metodo Post") //Si todo funciona
     });
 })
